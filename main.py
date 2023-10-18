@@ -11,7 +11,7 @@ def main():
     load_dotenv()
     SPOTIPY_CLIENT_ID = os.getenv('SPOTIPY_CLIENT_ID')
     SPOTIPY_CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
-    SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'  # You can change this to a different redirect URI
+    SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback' 
 
     # Initialize Spotify client
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=SPOTIPY_CLIENT_ID,
