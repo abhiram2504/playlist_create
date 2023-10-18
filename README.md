@@ -1,5 +1,4 @@
-# Moodify - 
-Spotify Playlist Generator
+# Moodify - Spotify Playlist Generator
 
 Moodify is a simple Python script that helps you create a Spotify playlist based on your current mood. It utilizes the Spotify API and the Spotipy library for Python to create a new private playlist and populate it with tracks that match your mood. The script also uses the dotenv library to load your Spotify API credentials securely from an environment file.
 
